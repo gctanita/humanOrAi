@@ -1,0 +1,23 @@
+{
+  "name": "humanorai",
+  "version": "1.0.0",
+  "description": "Just how good are we to distinguish between human made art and AI generated one? The only way to test this is to select and generate pictures and see how people respond.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "chart.js": "^4.4.9",
+    "chartjs-node-canvas": "^5.0.0",
+    "jimp": "^0.22.12",
+    "mathjs": "^14.5.2",
+    "ndarray": "^1.0.19",
+    "ndarray-fft": "^0.1.0",
+    "sharp": "^0.34.2"
+  }
+}
