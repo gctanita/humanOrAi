@@ -64,6 +64,7 @@ async function prettyPrintAPV(imagePath) {
     console.log("-".repeat(120));
     await prettyPrintAPV("portrait-photorealistic-human-01.jpg");
     await prettyPrintAPV("portrait-photorealistic-human-02.jpg");
+    await prettyPrintAPV("portrait-photorealistic-human-03.jpg");
     await prettyPrintAPV("portrait-photorealistic-AI-01.png");
     await prettyPrintAPV("portrait-photorealistic-AI-02.png");
 
@@ -75,6 +76,7 @@ async function prettyPrintAPV(imagePath) {
     console.log("-".repeat(120));
     await prettyPrintAPV("portrait-CGI-human-01.jpg");
     await prettyPrintAPV("portrait-CGI-human-02.jpg");
+    await prettyPrintAPV("portrait-CGI-human-03.jpg");
 
     console.log("\n\n");
     console.log("ILLUSTRATIVE IMAGES");
@@ -83,6 +85,9 @@ async function prettyPrintAPV(imagePath) {
     console.log("-".repeat(120));
     await prettyPrintAPV("portrait-ilustrative-human-01.jpg");
     await prettyPrintAPV("portrait-ilustrative-human-02.jpg");
+    await prettyPrintAPV("portrait-ilustrative-human-03.jpg");
+    // await prettyPrintAPV("portrait-ilustrative-AI-01.png");
+    // await prettyPrintAPV("portrait-ilustrative-AI-02.png");
 
 
     console.log("\n\n");
