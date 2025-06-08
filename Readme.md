@@ -69,10 +69,15 @@ Steps:
     - 03: Generate an image of a woman, in watercolor style
 
 
+First form created: https://forms.gle/atYBaqvKiU2a5DvV9 
+
+For the full Statisics you can find them here: ![click here for full statistics](Statistics/statistics.md)
+
+Here is the score distribution so far:
+![Score Statistics - Total Score](score.jpg) 
 
 
-
-
+I will download the answers from google forms from time to time, and upload them (I have made a small script that will generate automatically the statistics page based on the answer CSV).
 
 
 
