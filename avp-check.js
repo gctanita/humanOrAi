@@ -61,12 +61,18 @@ async function prettyPrintAPV(imagePath) {
     console.log("PORTRAIT IMAGES");
     console.log("-".repeat(120));
     console.log("Image Path - Photorealistic".padEnd(50, ' '), "\tAPV (8px)", "\t APV (16px)", "\t APV (32px)", "\t APV (64px)");
+    await prettyPrintAPV("test.jpg");
+
+    console.log("PORTRAIT IMAGES");
+    console.log("-".repeat(120));
+    console.log("Image Path - Photorealistic".padEnd(50, ' '), "\tAPV (8px)", "\t APV (16px)", "\t APV (32px)", "\t APV (64px)");
     console.log("-".repeat(120));
     await prettyPrintAPV("portrait-photorealistic-human-01.jpg");
     await prettyPrintAPV("portrait-photorealistic-human-02.jpg");
     await prettyPrintAPV("portrait-photorealistic-human-03.jpg");
     await prettyPrintAPV("portrait-photorealistic-AI-01.png");
     await prettyPrintAPV("portrait-photorealistic-AI-02.png");
+    await prettyPrintAPV("portrait-photorealistic-AI-03.png");
 
     
     console.log("\n\n");
@@ -77,6 +83,9 @@ async function prettyPrintAPV(imagePath) {
     await prettyPrintAPV("portrait-CGI-human-01.jpg");
     await prettyPrintAPV("portrait-CGI-human-02.jpg");
     await prettyPrintAPV("portrait-CGI-human-03.jpg");
+    await prettyPrintAPV("portrait-CGI-AI-01.png");
+    await prettyPrintAPV("portrait-CGI-AI-02.png");
+    await prettyPrintAPV("portrait-CGI-AI-03.png");
 
     console.log("\n\n");
     console.log("ILLUSTRATIVE IMAGES");
@@ -86,10 +95,22 @@ async function prettyPrintAPV(imagePath) {
     await prettyPrintAPV("portrait-ilustrative-human-01.jpg");
     await prettyPrintAPV("portrait-ilustrative-human-02.jpg");
     await prettyPrintAPV("portrait-ilustrative-human-03.jpg");
-    // await prettyPrintAPV("portrait-ilustrative-AI-01.png");
-    // await prettyPrintAPV("portrait-ilustrative-AI-02.png");
+    await prettyPrintAPV("portrait-ilustrative-AI-01.png");
+    await prettyPrintAPV("portrait-ilustrative-AI-02.png");
+    await prettyPrintAPV("portrait-ilustrative-AI-03.png");
 
-
+console.log("\n\n");
+    console.log("PAINTING IMAGES");
+    console.log("-".repeat(120));
+    console.log("Image Path - Painting".padEnd(50, ' '), "\tAPV (8px)", "\t APV (16px)", "\t APV (32px)", "\t APV (64px)");
+    console.log("-".repeat(120));
+    await prettyPrintAPV("portrait-painting-human-01.jpg");
+    await prettyPrintAPV("portrait-painting-human-02.jpg");
+    await prettyPrintAPV("portrait-painting-human-03.jpg");
+    await prettyPrintAPV("portrait-painting-AI-01.png");
+    await prettyPrintAPV("portrait-painting-AI-02.png");
+    await prettyPrintAPV("portrait-painting-AI-03.png");
+    
     console.log("\n\n");
     console.log("APV calculations completed.");
 

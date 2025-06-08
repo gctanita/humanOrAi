@@ -111,8 +111,12 @@ async function generateHistogramImage(data, outputFile = 'color_histogram.png') 
     const result = await analyzeColorDistribution('portrait-photorealistic-human-01.jpg', 32);
     console.log("🎨 Color distribution analysis completed.");
 
-    console.log("Generating chart and histogram image...");
-    await generateChart(result.slice(0, 20)); // Limit to top 20 for readability
-    console.log("Generating histogram image...");
-    await generateHistogramImage(result); // First 50 color blocks
+    console.log("🔍 Starting Color Distribution Analysis...");
+    const result2 = await analyzeColorDistribution('portrait-photorealistic-AI-01.png', 32);
+    console.log("🎨 Color distribution analysis completed.");
+
+    // console.log("Generating chart and histogram image...");
+    // await generateChart(result.slice(0, 20)); // Limit to top 20 for readability
+    // console.log("Generating histogram image...");
+    // await generateHistogramImage(result); // First 50 color blocks
 })();

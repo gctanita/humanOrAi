@@ -47,12 +47,19 @@ async function sobelEdgeDetection(path) {
 const imagePaths = [
     'portrait-photorealistic-human-01.jpg',
     'portrait-photorealistic-human-02.jpg',
+    'portrait-photorealistic-human-03.jpg',
     'portrait-photorealistic-AI-01.png',
     'portrait-photorealistic-AI-02.png',
+    'portrait-photorealistic-AI-03.png',
     'portrait-ilustrative-human-01.jpg',
     'portrait-ilustrative-human-02.jpg',
+    'portrait-ilustrative-human-03.jpg',
+    'portrait-ilustrative-ai-01.png',
+    'portrait-ilustrative-ai-02.png',
+    'portrait-ilustrative-ai-03.png',
     'portrait-CGI-human-01.jpg',
     'portrait-CGI-human-02.jpg',
+    'portrait-CGI-human-03.jpg',
 ];
 
 imagePaths.forEach(imagePath => {
