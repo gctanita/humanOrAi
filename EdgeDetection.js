@@ -60,6 +60,15 @@ const imagePaths = [
     'portrait-CGI-human-01.jpg',
     'portrait-CGI-human-02.jpg',
     'portrait-CGI-human-03.jpg',
+    'portrait-CGI-AI-01.png',
+    'portrait-CGI-AI-02.png',
+    'portrait-CGI-AI-03.png',
+    'portrait-painting-human-01.jpg',
+    'portrait-painting-human-02.jpg',
+    'portrait-painting-human-03.jpg',
+    'portrait-painting-AI-01.png',
+    'portrait-painting-AI-02.png',
+    'portrait-painting-AI-03.png'
 ];
 
 imagePaths.forEach(imagePath => {
