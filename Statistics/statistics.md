@@ -1,16 +1,16 @@
 # Statistics:
-- Average Score: 11.78
-- Total Entries: 46
+- Average Score: 11.69
+- Total Entries: 62
 
 ## AGE GROUP:
  | Age Group | Score total | Count | Average Score |
  | --- | --- | --- | --- |
-| preferNotToSay  | 69 | 6 | 11.50 |
+| preferNotToSay  | 120 | 11 | 10.91 |
 | under18         | 42 | 3 | 14.00 |
-| 18-24           | 75 | 5 | 15.00 |
-| 25-34           | 139 | 12 | 11.58 |
-| 35-44           | 82 | 8 | 10.25 |
-| 45-54           | 66 | 6 | 11.00 |
+| 18-24           | 92 | 6 | 15.33 |
+| 25-34           | 172 | 15 | 11.47 |
+| 35-44           | 116 | 11 | 10.55 |
+| 45-54           | 114 | 10 | 11.40 |
 | 55-64           | 44 | 4 | 11.00 |
 | 65+             | 25 | 2 | 12.50 |
 
@@ -21,10 +21,10 @@
 ## GENDER:
  | Gender | Score total | Count | Average Score |
  | --- | --- | --- | --- |
-| preferNotToSay  | 90 | 7 | 12.86 |
-| female          | 130 | 13 | 10.00 |
-| Male            | 299 | 24 | 12.46 |
-| NonBinary       | 23 | 2 | 11.50 |
+| preferNotToSay  | 141 | 12 | 11.75 |
+| female          | 138 | 14 | 9.86 |
+| Male            | 406 | 33 | 12.30 |
+| NonBinary       | 40 | 3 | 13.33 |
 
  | Total Score | Average Score |
  | --- | --- |
@@ -33,11 +33,11 @@
 ## EDUCATION:
  | Education | Score total | Count | Average Score |
  | --- | --- | --- | --- |
-| preferNotToSay  | 97 | 8 | 12.13 |
+| preferNotToSay  | 162 | 14 | 11.57 |
 | lessThanHighSchool | 55 | 4 | 13.75 |
-| highSchool      | 80 | 6 | 13.33 |
-| universityDegree | 176 | 15 | 11.73 |
-| postgraduateDegree | 134 | 13 | 10.31 |
+| highSchool      | 90 | 7 | 12.86 |
+| universityDegree | 227 | 19 | 11.95 |
+| postgraduateDegree | 191 | 18 | 10.61 |
 
  | Total Score | Average Score |
  | --- | --- |
@@ -46,12 +46,12 @@
 ## INCOME:
  | Income | Score total | Count | Average Score |
  | --- | --- | --- | --- |
-| preferNotToSay  | 349 | 30 | 11.63 |
+| preferNotToSay  | 481 | 42 | 11.45 |
 | underMinWage    | 27 | 2 | 13.50 |
-| betweenMinAndAvgWage | 54 | 5 | 10.80 |
-| between1xand1_5xAvgWage | 13 | 1 | 13.00 |
-| between1_5xand2xAvgWage | 0 | 0 | NaN |
-| moreThan2xAvgWage | 99 | 8 | 12.38 |
+| betweenMinAndAvgWage | 67 | 6 | 11.17 |
+| between1xand1_5xAvgWage | 25 | 2 | 12.50 |
+| between1_5xand2xAvgWage | 17 | 1 | 17.00 |
+| moreThan2xAvgWage | 108 | 9 | 12.00 |
 
  | Total Score | Average Score |
  | --- | --- |
@@ -60,9 +60,9 @@
 ## EMPLOYMENT STATUS:
  | Employment Status | Score total | Count | Average Score |
  | --- | --- | --- | --- |
-| preferNotToSay  | 79 | 7 | 11.29 |
-| employed        | 244 | 22 | 11.09 |
-| selfEmployed    | 11 | 1 | 11.00 |
+| preferNotToSay  | 156 | 14 | 11.14 |
+| employed        | 342 | 30 | 11.40 |
+| selfEmployed    | 19 | 2 | 9.50 |
 | unemployed      | 33 | 3 | 11.00 |
 | student         | 131 | 9 | 14.56 |
 | retired         | 44 | 4 | 11.00 |
@@ -74,12 +74,12 @@
 ## LOCATION:
  | Location | Score total | Count | Average Score |
  | --- | --- | --- | --- |
-| prefer_not_say  | 117 | 10 | 11.70 |
-| eastern_europe  | 374 | 32 | 11.69 |
+| prefer_not_say  | 187 | 17 | 11.00 |
+| eastern_europe  | 454 | 39 | 11.64 |
 | central_europe  | 15 | 1 | 15.00 |
-| western_europe  | 0 | 0 | NaN |
+| western_europe  | 16 | 1 | 16.00 |
 | northern_europe | 0 | 0 | NaN |
-| southern_europe | 0 | 0 | NaN |
+| southern_europe | 17 | 1 | 17.00 |
 | north_america   | 11 | 1 | 11.00 |
 | central_america_caribbean | 0 | 0 | NaN |
 | south_america   | 0 | 0 | NaN |
@@ -104,21 +104,21 @@
 | 2               |1 |
 | 3               |0 |
 | 4               |1 |
-| 5               |0 |
+| 5               |1 |
 | 6               |0 |
 | 7               |1 |
-| 8               |3 |
-| 9               |3 |
-| 10              |6 |
+| 8               |5 |
+| 9               |6 |
+| 10              |8 |
 | 11              |7 |
-| 12              |7 |
-| 13              |2 |
-| 14              |6 |
+| 12              |10 |
+| 13              |3 |
+| 14              |7 |
 | 15              |4 |
-| 16              |3 |
-| 17              |0 |
+| 16              |4 |
+| 17              |1 |
 | 18              |0 |
-| 19              |1 |
+| 19              |2 |
 | 20              |1 |
 | 21              |0 |
 | 22              |0 |
